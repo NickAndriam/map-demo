@@ -1,0 +1,31 @@
+.favoriteCard_container {
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.071) 0px 0px 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h4 {
+  line-height: 0;
+}
+p {
+  line-height: 0;
+}
+
+.favoriteCard_title {
+  font-size: 15px;
+}
+
+.favoriteCard_subtitle {
+  font-size: 12px;
+}
+
+.favoriteCard_icons {
+  display: flex;
+}

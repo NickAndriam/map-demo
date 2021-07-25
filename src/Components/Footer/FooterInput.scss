@@ -1,0 +1,34 @@
+.footerInput_container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 500px;
+  height: 340px;
+  background-color: rgb(244, 244, 244);
+  background: linear-gradient(
+    153deg,
+    rgba(255, 255, 255, 1) 1%,
+    rgba(226, 226, 226, 1) 100%
+  );
+  z-index: 50;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  //   padding: 10px;
+  padding-top: 70px;
+}
+
+.footerInput_title {
+  background-color: #4bb18f;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 30px 30px;
+}

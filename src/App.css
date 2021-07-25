@@ -1,0 +1,14 @@
+.App {
+  /* background-color: #549b73; */
+  /* background-color: grey; */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}

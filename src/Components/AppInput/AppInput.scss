@@ -1,0 +1,22 @@
+.appInput_input {
+  outline: none;
+  width: 280px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  //   box-shadow: rgba(0, 0, 0, 0.064) 0px 5px 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border: grey solid 1px;
+}
+
+.appInput_input::placeholder {
+  font-size: 15px;
+}
+
+.appInput_label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: grey;
+}

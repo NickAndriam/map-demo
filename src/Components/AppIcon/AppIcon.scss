@@ -1,0 +1,28 @@
+.appIcon_container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appIcon_instruction {
+  position: absolute;
+  left: -90px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 30px;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.appIcon_icon {
+  pointer-events: none;
+}
